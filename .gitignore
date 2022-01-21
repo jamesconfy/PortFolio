@@ -205,7 +205,7 @@ $RECYCLE.BIN/
 *.lnk
 
 # My Configure
-*.portfolio.code-workspace
+.portfolio.code-workspace
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,python
 
