@@ -1,0 +1,91 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="container-fluid mynav p-5">
+    <section class="m-5 p-5 first_section">
+        <h4>Hello, Everyone</h4>
+        <p>World class consumer and trends research capabilities we design for tomorrow customers in tomorrow's markets.
+        </p>
+    </section>
+</div>
+
+<div class="container-fluid mt-2">
+    <div class="row">
+        <div class="col-sm-6 col-md-4 shadow1 p-5"> Yea</div>
+        <div class="col-sm-6 col-md-4 shadow1 p-5">What</div>
+        <div class="col-sm-6 col-md-4 shadow1 p-5">Naaah</div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6 col-md-4 shadow1 p-5">Lets Go</div>
+        <div class="col-sm-6 col-md-4 shadow1 p-5">You Don't</div>
+        <div class="col-sm-6 col-md-4 shadow1 p-5">Mean That</div>
+    </div>
+</div>
+
+<div class="container-fluid mynav p-3">
+    <section class="first_section">
+        <p>
+            <a href="#">More Works</a>
+        </p>
+    </section>
+</div>
+
+<div class="container mtb-7">
+    <div class="row">
+        <div class="col-sm-6 col-md-4 p-5">
+            <img src="{{ url_for('static', filename='assets/3D Modeling.svg') }}" class="mb-4">
+            <section>
+                <h4>
+                    3D Modeling
+                </h4>
+                <p>
+                    A wonderful serenity has taken to the
+                    possession of my entire soul network
+                    infrastructure, including consolidation of
+                    established network designed and
+                </p>
+            </section>
+        </div>
+        <div class="col-sm-6 col-md-4 p-5">
+            <img src="{{ url_for('static', filename='assets/UI_UX Design.svg') }}" class="mb-4">
+            <section>
+                <h4>
+                    UI/UX Design
+                </h4>
+                <p>
+                    A wonderful serenity has taken to the
+                    possession of my entire soul network
+                    infrastructure, including consolidation of
+                    established network designed and
+                </p>
+            </section>
+        </div>
+        <div class="col-sm-6 col-md-4 p-5">
+            <img src="{{ url_for('static', filename='assets/Architectural Design.svg') }}" class="mb-4">
+            <section>
+                <h4>
+                    Architectural Design
+                </h4>
+                <p>
+                    A wonderful serenity has taken to the
+                    possession of my entire soul network
+                    infrastructure, including consolidation of
+                    established network designed and
+                </p>
+            </section>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid talk p-4">
+    <section class="first_section p-5 m-5">
+        <h1>
+            Let's start your project with us
+        </h1>
+        <button class="btn btn-outline-info m-4">
+            Let's Talk
+        </button>
+    </section>
+</div>
+
+{% endblock %}
