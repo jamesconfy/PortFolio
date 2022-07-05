@@ -90,6 +90,7 @@ section h4 {
 .foo ul {
 	list-style: none;
 	display: inline-flex;
+	
 }
 
 .foo ul li {
