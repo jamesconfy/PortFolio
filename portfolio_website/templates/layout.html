@@ -50,6 +50,9 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ url_for('previous') }}">Previous Works</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url_for('getResume') }}">Get Resume</a>
+                            </li>
                         </ul>
                         <!-- <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -72,7 +75,6 @@
         {% endif %}
         {% endwith %}
         {% block content %} {% endblock %}
-    </div>
     </div>
 
     <footer class="footer mt-4">

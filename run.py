@@ -1,4 +1,6 @@
-from portfolio_website import app
+from portfolio_website import create_app
+
+app = create_app()
 
 if __name__ == "__main__":
     app.run()

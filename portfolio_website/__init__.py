@@ -1,7 +1,11 @@
 from flask import Flask
 from config import Config
 
-app = Flask(__name__)
-app.config.from_object(Config)
+def create_app():
+    app = Flask("portfolio_website")
+    app.config.from_object(Config)
 
-from portfolio_website import routes
+    with app.app_context():
+        from portfolio_website import routes
+
+    return app
